@@ -19,6 +19,7 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = "";
 
+
 /*
         System.out.println("Введите данные сотрудника.");
 
