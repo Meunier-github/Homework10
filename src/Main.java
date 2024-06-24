@@ -19,12 +19,18 @@ public class Main {
         String lastName = "";
         String fullName = "";
 
+/*
         System.out.println("Введите данные сотрудника.");
 
         firstName = InputString("Фамилия:");
         middleName = InputString("Имя:");
         lastName = InputString("Отчество:");
-        fullName = fullName.concat(firstName).concat(" ").concat(middleName).concat(" ").concat(lastName);
+*/
+        firstName = "Ivan";
+        middleName = "Ivanovich";
+        lastName = "Ivanov";
+
+        fullName = fullName.concat(lastName).concat(" ").concat(middleName).concat(" ").concat(firstName);
         System.out.println("Ф. И. О. сотрудника — ".concat(fullName));
 
         /*Задача 2
