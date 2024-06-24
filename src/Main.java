@@ -14,9 +14,9 @@ public class Main {
         Выведите в консоль фразу: «Ф. И. О. сотрудника — …».
         В качестве данных для задачи используйте Ivanov Ivan Ivanovich.*/
 
-        String firstName = "";
-        String middleName = "";
-        String lastName = "";
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
         String fullName = "";
 
 /*
@@ -26,9 +26,6 @@ public class Main {
         middleName = InputString("Имя:");
         lastName = InputString("Отчество:");
 */
-        firstName = "Ivan";
-        middleName = "Ivanovich";
-        lastName = "Ivanov";
 
         fullName = fullName.concat(lastName).concat(" ").concat(middleName).concat(" ").concat(firstName);
         System.out.println("Ф. И. О. сотрудника — ".concat(fullName));
